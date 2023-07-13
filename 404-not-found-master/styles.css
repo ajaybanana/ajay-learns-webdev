@@ -1,0 +1,227 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    header{
+        margin-left:14px;
+        margin-top:20px;
+    }
+    main{
+        display:flex;
+        flex-direction:column;
+    }
+    img{
+        display:block;
+        margin:auto;
+    }
+    .text{
+        margin:auto;
+    }
+    h1{
+        color: var(--gray-1, #333);
+        font-family: Space Mono;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -2.24px;
+    }
+    main p{
+        color: var(--gray-2, #4F4F4F);
+        font-family: Space Mono;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.63px;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    header{
+        margin-left:14px;
+    }
+    main{
+        display:flex;
+        flex-direction:column;
+    }
+    img{
+        display:block;
+        margin:auto;
+    }
+    .text{
+        margin:auto;
+    }
+    h1{
+        color: var(--gray-1, #333);
+        font-family: Space Mono;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -2.24px;
+    }
+    main p{
+        color: var(--gray-2, #4F4F4F);
+        font-family: Space Mono;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.63px;
+    }
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    header{
+        margin-left:65px;
+    }
+    main{
+        display:flex;
+        flex-direction:column;
+    }
+    img{
+        display:block;
+        margin:auto;
+    }
+    .text{
+        margin:auto;
+    }
+    h1{
+        color: var(--gray-1, #333);
+        font-family: Space Mono;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -2.24px;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    header{
+        margin-left:77px;
+    }
+    main{
+        display:flex;
+        flex-direction: row;
+    
+    }
+    .text{
+        display:flex;
+        flex-direction: column;
+    }
+    h1{
+        color: var(--gray-1, #333);
+        font-family: Space Mono;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -2.24px;
+    }
+    footer{
+        position:absolute;
+        bottom:0;
+        width:100%;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    header{
+        margin-left:77px;
+    }
+    main{
+        display:flex;
+        flex-direction: row;
+    
+    }
+    .text{
+        display:flex;
+        flex-direction: column;
+    }
+    h1{
+        color: var(--gray-1, #333);
+        font-family: Space Mono;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -2.24px;
+    }
+    footer{
+        position:absolute;
+        bottom:0;
+        width:100%;
+    }
+}
+
+/*For everything regardless of screen size*/
+header{
+    text-transform: uppercase;
+    font-family: 'Inconsolata';
+    color:#333;
+    letter-spacing: -1.92px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: normal;
+    font-style:normal;
+    margin-top:40px;
+    margin-bottom:200px;
+
+}
+img{
+    width:50%;
+    padding-right:5%;
+}
+
+.text{
+    display:flex;
+    flex-direction: column;
+    width:50%;
+    
+}
+button{
+ color: #FFF;
+font-family: Space Mono;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.49px;
+text-transform: uppercase;
+width: 216px;
+height: 68px;
+flex-shrink: 0;
+background: var(--gray-1, #333);
+}
+main p{
+    color: var(--gray-2, #4F4F4F);
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.84px;
+}
+
+footer p{
+    color: #BDBDBD;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+footer{
+    margin-top:300px;
+}
