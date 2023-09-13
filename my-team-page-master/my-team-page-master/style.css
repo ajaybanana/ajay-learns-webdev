@@ -1,0 +1,26 @@
+.container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left:auto;
+    margin-right:auto;
+
+
+}
+
+img{
+    height:341px;
+    width:238px;
+    margin:0;
+    padding:0;
+ 
+}
+.role{
+    transform: rotate(90deg);
+    text-transform: uppercase;
+    margin:0;
+    padding:0;
+
+}
+.name{
+    margin-top:0;
+}
